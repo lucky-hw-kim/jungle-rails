@@ -2,8 +2,10 @@ class OrdersController < ApplicationController
 
   def show
     @order = Order.find(params[:id])
-  end
+    @line_items = LineItem.where(order_id: @order.id)
 
+  end
+  
   def create
     charge = perform_stripe_charge
     order  = create_order(charge)
