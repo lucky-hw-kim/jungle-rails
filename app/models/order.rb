@@ -1,6 +1,6 @@
 class Order < ApplicationRecord
 
-  has_many :line_items
+  has_many :line_items, dependent: :destroy
 
   monetize :total_cents, numericality: true
 
