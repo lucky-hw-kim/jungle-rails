@@ -1,0 +1,46 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.login-btn {
+  margin-top: 0.25em;
+  margin-left: 0.4em;
+}
+li.login-btn > .btn-outline-light {
+  margin-left: 0.25em;
+}
+.login-container {
+  width: 100%;
+  max-width: 360px;
+  padding: 15px;
+  margin: auto;
+
+  .signin-btn {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+
+  .logo-img {
+    width: 100%;
+    margin-top: -60px;
+    margin-bottom: -100px;
+    padding: 15px;
+  }
+  .form-control {
+    margin-bottom: 0.25em;
+  }
+}
+.signin, .signup {
+  text-align: center;
+  margin: 1em auto 1em auto;
+}
+
+.hello-user {
+  margin-top: 0.25em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  color: rgba(255, 255, 255, 0.904);
+}
+
+
+
