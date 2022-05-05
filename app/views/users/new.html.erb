@@ -1,0 +1,14 @@
+<div class="login-container">
+  <img src="/images/jungle-logos_transparent.png" alt="logo" class="logo-img">
+  <h2 class="signup">Please sign up</h2>
+  <%= form_for :user, url: '/users' do |f| %>
+    <%= f.text_field :first_name, placeholder: "First Name", class: 'form-control'  %>
+    <%= f.text_field :last_name, placeholder: "Last Name", class: 'form-control'  %>
+    <%= f.text_field :email, placeholder: "Email", class: 'form-control'  %>
+    <%= f.password_field :password, placeholder: "Password", class: 'form-control'  %>
+    <%= f.password_field :password_confirmation, placeholder: "Password Confirmation", class: 'form-control'  %>
+    <br>
+    <%= f.submit "Sign Up", class:"btn btn-primary signin-btn" %>
+
+  <% end %>
+</div>
