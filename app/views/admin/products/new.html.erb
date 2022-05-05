@@ -5,9 +5,9 @@
   </header>
 
   <div class="well">
-    <%= link_to 'All Products', [:admin, :products], class: 'btn btn-info' %>
+    <%= link_to 'All Products', [:admin, :products], class: 'btn btn-success' %>
   </div>
-
+  <br>
   <div class="row">
     <div class="col-sm-6 col-sm-offset-1">
       <%= form_for [:admin, @product] do |form| %>
@@ -47,14 +47,12 @@
           <%= form.label :price %>
           <%= form.text_field :price, class: 'form-control' %>
         </div>
-
-
-
+        <br>
         <div class="form-group">
           <%= form.label :image %>
           <%= form.file_field :image %>
         </div>
-
+        <br>
         <%= form.submit 'Create Product', class: 'btn btn-primary' %>
       <% end %>
     </div>
