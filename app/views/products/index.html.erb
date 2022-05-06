@@ -1,4 +1,10 @@
 <section class="products-index">
+<% flash.each do |type, msg| %>
+  <div class="alert alert-info alert-dismissible fade show">
+    <%= msg %>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+<% end %>
   <header class="page-header">
     <div class="intro">
       <p>

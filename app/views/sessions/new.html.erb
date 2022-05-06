@@ -1,9 +1,15 @@
-
+<% if notice %> 
+  <div class="alert alert-warning alert-dismissible fade show animate__fadeInDown" role="alert">
+    <%= notice %>
+    
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+<% end %>
 
 <div class="login-container">
   <img src="/images/jungle-logos_transparent.png" alt="logo" class="logo-img">
   <h2 class="signin">Please sign in </h2>
-  <%= form_tag '/login' do %>
+  <%= form_for '/login' do %>
 
     <%= text_field_tag :email, nil, placeholder: 'Email address', class: 'form-control' %>
     <%= password_field_tag :password, nil, placeholder: 'Password', class: 'form-control' %>
@@ -11,4 +17,5 @@
     <%= submit_tag "Sign in", class: 'btn btn-lg btn-primary btn-block signin-btn' %>
 
   <% end %>
+
 </div>
