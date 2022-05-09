@@ -9,7 +9,7 @@ class UsersController < ApplicationController
       flash.alert = 'Welcome! You are successfully logged in!'
       redirect_to '/'
     else
-      redirect_to '/signup'
+      redirect_to '/signup', notice: 'This email is already associated with an account'
     end
   end   
 

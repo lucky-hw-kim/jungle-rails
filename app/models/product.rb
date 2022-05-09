@@ -9,4 +9,9 @@ class Product < ApplicationRecord
   validates :price, presence: true
   validates :quantity, presence: true
   validates :category, presence: true
+
+  def deduct_inventory(num = 1) 
+    quantity -= num
+  end
+
 end

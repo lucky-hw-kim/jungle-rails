@@ -1,11 +1,8 @@
 Rails.application.routes.draw do
 
-
-  get 'static_pages/help'
-  get 'static_pages/faq'
-  get 'static_pages/about'
   root to: 'products#index'
-
+  resources :contact_us, only: [:index]
+  resources :faq, only: [:index]
   resources :about, only: [:index]
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
