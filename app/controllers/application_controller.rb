@@ -30,6 +30,13 @@ class ApplicationController < ActionController::Base
   end
   helper_method :cart_subtotal_cents
 
+  def update_quantity
+    entries = cart.entries
+    entries.each do |entry|
+      Product.find(entiry[0].to_i).deduct_inventory(entry[1])
+    end
+  end
+
 
   def update_cart(new_cart)
     cookies[:cart] = {

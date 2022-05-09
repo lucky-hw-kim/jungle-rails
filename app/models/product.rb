@@ -11,7 +11,8 @@ class Product < ApplicationRecord
   validates :category, presence: true
 
   def deduct_inventory(num = 1) 
-    quantity -= num
+    self.quantity -= num
+    self.save
   end
 
 end
