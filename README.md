@@ -5,19 +5,19 @@
 <p id="description">This mini e-commerce application for plants shopping allows users to buy plants and admin users can add/delete more products/categories of plants. It is made using Ruby v3.1.1 and Rails version Rails v6.1.5.1.</p>
 
 <h2>📸 Screen Shots</h2>
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_index.png?raw=true" alt="project-screenshot" width="400px" height="400/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_index.png?raw=true" alt="project-screenshot" width="600px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_empty_cart.png?raw=true" alt="project-screenshot" width="400px" height="400/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_empty_cart.png?raw=true" alt="project-screenshot" width="600px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_add_item_to_cart.gif?raw=true" alt="project-screenshot" width="400px" height="400/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_add_item_to_cart.gif?raw=true" alt="project-screenshot" width="600px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_aboutUs.png" alt="project-screenshot" width="400px" height="400/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_aboutUs.png" alt="project-screenshot" width="400px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_payment.gif?raw=true" alt="project-screenshot" width="400px" height="400/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_payment.gif?raw=true" alt="project-screenshot" width="400px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_faq.png?raw=true" alt="project-screenshot" width="400px" height="400/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_faq.png?raw=true" alt="project-screenshot" width="400px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_signup_logout.gif?raw=true" alt="project-screenshot" width="400" height="400/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_signup_logout.gif?raw=true" alt="project-screenshot" width="400" height="auto/">
   
 <h2>🧐 Features</h2>
 
