@@ -6,19 +6,19 @@
 
 <h2>📸 Screen Shots</h2>
 <p align="center">
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_index.png?raw=true" alt="project-screenshot" width="600px" height="auto/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_index.png?raw=true" alt="project-screenshot" width="700px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_empty_cart.png?raw=true" alt="project-screenshot" width="600px" height="auto/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_empty_cart.png?raw=true" alt="project-screenshot" width="700px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_add_item_to_cart.gif?raw=true" alt="project-screenshot" width="600px" height="auto/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_add_item_to_cart.gif?raw=true" alt="project-screenshot" width="700px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_aboutUs.png" alt="project-screenshot" width="600px" height="auto/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_aboutUs.png" alt="project-screenshot" width="700px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_payment.gif?raw=true" alt="project-screenshot" width="600px" height="auto/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_payment.gif?raw=true" alt="project-screenshot" width="700px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_faq.png?raw=true" alt="project-screenshot" width="600px" height="auto/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_faq.png?raw=true" alt="project-screenshot" width="700px" height="auto/">
 
-<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_signup_logout.gif?raw=true" alt="project-screenshot" width="600" height="auto/">
+<img src="https://github.com/lucky-hw-kim/jungle-rails/blob/master/doc/Jungle_signup_logout.gif?raw=true" alt="project-screenshot" width="700" height="auto/">
 </p>
 <h2>🧐 Features</h2>
 
