@@ -1,8 +1,54 @@
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<%= tag.h1 'Contact Us', class: 'text-center mt-4' %>
+<%= tag.h1 'Contact Us', class: 'text-center mt-5' %>
+<br>
+  <p class="text-center w-responsive mx-auto mb-5 fs-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+  <div class="d-flex justify-content-evenly w-responsive">
+    <section class="mb-4 mt-5" style="left-margin: -150px; min-width: 650px; min-height: 600px">
+        <div class="row">
+            <div class="col-md-10 mb-md-2 mb-1">
+                <form id="contact-form" name="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0 form-group">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <div class="md-form mb-0 form-group">
+                                <input type="text" id="email" name="email" class="form-control" placeholder="Email Address">
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0 form-group">
+                                <input type="text" id="sibject" name="subject" class="form-control input-lg" placeholder="Subject">
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form form-group">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Type your message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <br>
+                <div class="text-left text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+        </div>
+    </section>
 
-<div class="d-flex justify-content-end">
-  <div class="contactUs-lottie">
-    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_hqrpwcwb.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    <div class="d-flex justify-content-end">
+      <div class="contactUs-lottie" style="margin-right:-100px; margin-top:-70px">
+        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_hqrpwcwb.json"  background="transparent"  speed="1"  style="width: 450px; height: 500px;"  loop  autoplay></lottie-player>
+      </div>
   </div>
 </div>
