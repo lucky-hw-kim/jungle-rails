@@ -2,9 +2,7 @@ class OrdersController < ApplicationController
 
   def show
     @order = Order.find(params[:id])
-    # @line_items = LineItem.all
     @line_items = LineItem.where(order_id: @order.id)
-    
   end
   
   def create

@@ -1,0 +1,21 @@
+Receipt for Order #<%= @order.id %> 
+===============================================
+Here is the receipt of your order from Jungle.com
+your email address is: <%= @order.email  %>
+-------------Order Details------------------
+<% @line_items.each do |item| %>
+| Product: <%= item.product %> 
+|-------------------------------
+| Quantity: <%= item.quantity %>
+|-------------------------------
+| Price: <%= item.item_price_cents / 100.0 %>
+|-------------------------------
+<% end %>
+
+Item has been shipped.
+
+Thank you for your purchase!
+
+
+
+
