@@ -33,7 +33,7 @@ class ApplicationController < ActionController::Base
   def update_quantity
     entries = cart.entries
     entries.each do |entry|
-      Product.find(entiry[0].to_i).deduct_inventory(entry[1])
+      Product.find(entry[0].to_i).deduct_inventory(entry[1])
     end
   end
 
